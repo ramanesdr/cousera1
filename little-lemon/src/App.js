@@ -1,15 +1,15 @@
 import React from "react";
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
+import Little from "./components/layout/Little";
+import Special from "./components/layout/Special";
 
 function App() {
   return (
       <>
         <Nav />
-          <div>
-            <h1 style={{textAlign:"center", background:'green'}}>Tout va venir ce mettre ici</h1>
-          </div>
-        <Footer />
+         <Little />
+         <Special />
       </>
   );
 }

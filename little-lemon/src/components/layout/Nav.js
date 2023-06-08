@@ -3,9 +3,9 @@ import { ReactComponent as Blabla } from '../../image/blabla.svg'
 
 function Nav() {
   return (
-    <div >
+    <div className='nav'>
         <Blabla />
-        <ul>
+        <ul className='nav--link'>
             <li><a href=''>Home</a></li>
             <li><a href=''>About</a></li>
             <li><a href=''>Menu</a></li>
